@@ -11,6 +11,8 @@ gem 'puma', '~> 3.11'
 gem 'bcrypt', '~> 3.1.7'
 # Use for the database
 gem 'postgresql', '~> 1.0'
+# For token decoding/encoding
+gem 'jwt', '~> 2.2', '>= 2.2.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
