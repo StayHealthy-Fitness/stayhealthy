@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 class CreateAddresses < ActiveRecord::Migration[6.0]
   def change
     create_table :addresses, id: :uuid, default: 'gen_random_uuid()' do |t|
       t.references :addressable, polymorphic: true, type: :uuid
-      
+
       t.string :address_line_1
       t.string :address_line_2
       t.string :city

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateActivityLocations < ActiveRecord::Migration[6.0]
   def change
     create_table :activity_locations, id: :uuid, default: 'gen_random_uuid()' do |t|
