@@ -6,6 +6,7 @@ class ApplicationController < ActionController::API
   def authorize_request
     token = request.headers['X-StayHealthy-Access-Token']
     token = token.split(' ').last if token
+
     begin
       @decoded = JsonWebToken.decode(token)
       @current_user = User.find(@decoded[:user_id])
