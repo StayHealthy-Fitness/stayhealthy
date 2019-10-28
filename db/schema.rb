@@ -12,6 +12,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+# rubocop:disable Metrics/BlockLength
 ActiveRecord::Schema.define(version: 20_190_928_192_144) do
   # These are extensions that must be enabled in order to support this database
   enable_extension 'pgcrypto'
@@ -107,3 +108,4 @@ ActiveRecord::Schema.define(version: 20_190_928_192_144) do
     t.datetime 'updated_at', precision: 6, null: false
   end
 end
+# rubocop:enable Metrics/BlockLength
