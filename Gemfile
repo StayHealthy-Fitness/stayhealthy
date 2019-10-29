@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -15,6 +17,8 @@ gem 'postgresql', '~> 1.0'
 gem 'jwt', '~> 2.2', '>= 2.2.1'
 # For the GraphQL API
 gem 'graphql', '~> 1.9', '>= 1.9.14'
+# Used for linting and formatting
+gem 'rubocop', '~> 0.75.1', require: false
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -33,4 +37,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

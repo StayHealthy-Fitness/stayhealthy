@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Activity < ApplicationRecord
   has_and_belongs_to_many :events
   has_and_belongs_to_many :activity_locations
