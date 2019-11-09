@@ -141,8 +141,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-<<<<<<< HEAD
-=======
     rubocop (0.75.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -151,8 +149,6 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
     ruby-progressbar (1.10.1)
-    ruby_dep (1.5.0)
->>>>>>> Fix initial Rubocop warnings
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
