@@ -18,7 +18,7 @@ gem 'jwt', '~> 2.2', '>= 2.2.1'
 # For the GraphQL API
 gem 'graphql', '~> 1.9'
 # Used for linting and formatting
-gem 'rubocop', '~> 0.75.1', require: false
+gem 'rubocop', '~> 0.76.0', require: false
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
