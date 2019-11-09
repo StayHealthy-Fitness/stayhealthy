@@ -24,7 +24,7 @@ gem 'rubocop', '~> 0.76.0', require: false
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-  gem 'faker', '~> 2.6'
+  gem 'faker', '~> 2.7'
   gem 'pry', '~> 0.12.2'
   gem 'pry-rails', '~> 0.3.9'
 end
