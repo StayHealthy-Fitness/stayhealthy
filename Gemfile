@@ -8,7 +8,7 @@ ruby '2.6.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
 # Use Puma as the app server
-gem 'puma', '~> 4.2'
+gem 'puma', '~> 4.3'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 # Use for the database
