@@ -23,10 +23,11 @@ gem 'rubocop', '~> 0.76.0', require: false
 gem 'algoliasearch', '~> 1.6', '>= 1.6.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+# Temporarily add to production env for rake task
+gem 'faker', '~> 2.7'
 
 group :development, :test do
   gem 'dotenv-rails'
-  gem 'faker', '~> 2.7'
   gem 'pry', '~> 0.12.2'
   gem 'pry-rails', '~> 0.3.9'
 end
