@@ -24,7 +24,7 @@ gem 'algoliasearch', '~> 1.6', '>= 1.6.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 # Temporarily add to production env for rake task
-gem 'faker', '~> 2.9'
+gem 'faker', '~> 2.13'
 
 group :development, :test do
   gem 'dotenv-rails'
