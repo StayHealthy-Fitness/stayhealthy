@@ -10,7 +10,7 @@ gem 'rails', '~> 6.0.2'
 # Use Puma as the app server
 gem 'puma', '~> 4.3'
 # Use Active Model has_secure_password
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.15'
 # Use for the database
 gem 'postgresql', '~> 1.0'
 # For token decoding/encoding
