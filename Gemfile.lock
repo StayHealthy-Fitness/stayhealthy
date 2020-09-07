@@ -60,7 +60,7 @@ GEM
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     ast (2.4.0)
-    bcrypt (3.1.13)
+    bcrypt (3.1.16)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -184,7 +184,7 @@ PLATFORMS
 
 DEPENDENCIES
   algoliasearch (~> 1.6, >= 1.6.1)
-  bcrypt (~> 3.1.7)
+  bcrypt (~> 3.1.16)
   bootsnap (>= 1.4.2)
   dotenv-rails
   faker (~> 2.9)
