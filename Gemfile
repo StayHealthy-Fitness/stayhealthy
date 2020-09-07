@@ -18,7 +18,7 @@ gem 'jwt', '~> 2.2', '>= 2.2.1'
 # For the GraphQL API
 gem 'graphql', '~> 1.9'
 # Used for linting and formatting
-gem 'rubocop', '~> 0.78.0', require: false
+gem 'rubocop', '~> 0.90.0', require: false
 # Used to interface with our Algolia indexes
 gem 'algoliasearch', '~> 1.6', '>= 1.6.1'
 # Reduces boot times through caching; required in config/boot.rb
