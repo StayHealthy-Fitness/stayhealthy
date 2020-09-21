@@ -56,7 +56,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
-    algoliasearch (1.27.1)
+    algoliasearch (1.27.4)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     ast (2.4.0)
@@ -82,7 +82,7 @@ GEM
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
-    json (2.2.0)
+    json (2.3.1)
     jwt (2.2.1)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -183,7 +183,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  algoliasearch (~> 1.6, >= 1.6.1)
+  algoliasearch (~> 1.27)
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.2)
   dotenv-rails

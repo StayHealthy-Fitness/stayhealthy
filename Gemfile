@@ -20,7 +20,7 @@ gem 'graphql', '~> 1.9'
 # Used for linting and formatting
 gem 'rubocop', '~> 0.78.0', require: false
 # Used to interface with our Algolia indexes
-gem 'algoliasearch', '~> 1.6', '>= 1.6.1'
+gem 'algoliasearch', '~> 1.27'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 # Temporarily add to production env for rake task
