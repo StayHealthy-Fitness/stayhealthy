@@ -14,7 +14,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Use for the database
 gem 'postgresql', '~> 1.0'
 # For token decoding/encoding
-gem 'jwt', '~> 2.2', '>= 2.2.1'
+gem 'jwt', '~> 2.2'
 # For the GraphQL API
 gem 'graphql', '~> 1.9'
 # Used for linting and formatting
