@@ -16,7 +16,7 @@ gem 'postgresql', '~> 1.0'
 # For token decoding/encoding
 gem 'jwt', '~> 2.2', '>= 2.2.1'
 # For the GraphQL API
-gem 'graphql', '~> 1.9'
+gem 'graphql', '~> 1.12'
 # Used for linting and formatting
 gem 'rubocop', '~> 0.78.0', require: false
 # Used to interface with our Algolia indexes
